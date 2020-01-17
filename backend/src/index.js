@@ -5,7 +5,7 @@ const routes = require('./routes');
 const app = express();
 
 // Configuração mongodb atlass cluster
-mongoose.connect('mongodb+srv://jonas:<password>@cluster0-yhpy1.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://jonas:jna012017@cluster0-yhpy1.mongodb.net/week10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
